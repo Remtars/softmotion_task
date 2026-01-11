@@ -134,7 +134,7 @@ public class XmlProcessor {
                 picture TEXT,
                 name TEXT NOT NULL,
                 vendor TEXT,
-                vendor_code VARCHAR(100) UNIQUE NOT NULL,
+                vendor_code VARCHAR(100),
                 description TEXT,
                 count INTEGER,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
